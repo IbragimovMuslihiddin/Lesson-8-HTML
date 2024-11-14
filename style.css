@@ -1,0 +1,23 @@
+button{
+    width: 300px;
+    height: 60px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    border: 0;
+    font-size: 30px;
+    transition: all 0.5s linear;
+}
+button:hover{
+    cursor: pointer;
+    border: 2px solid blue;
+    color: blue;
+    background-color: white;
+    transition: all 0.5s linear;
+}
+body{
+    background-image: url(./1.jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
